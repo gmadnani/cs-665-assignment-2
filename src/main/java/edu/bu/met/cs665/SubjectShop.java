@@ -1,9 +1,9 @@
 package edu.bu.met.cs665;
 
 public interface SubjectShop {
-    void registerObserver(Observer observer);
-
-    void removeObserver(Observer observer);
-
-    void notifyObservers(DeliveryRequest deliveryRequest);
+  public void registerObserver(Observer observer);
+  
+  public void removeObserver(Observer observer);
+  
+  public void notifyObservers(DeliveryRequest deliveryRequest);
 }
