@@ -3,10 +3,16 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/23/2023
  * File Name: Main.java
- * Description: Write a description for this class
+ * Description:
  */
 
 package edu.bu.met.cs665;
+
+import edu.bu.met.cs665.driver.Driver;
+import edu.bu.met.cs665.shop.Shop;
+import edu.bu.met.cs665.vehicle.Scooter;
+import edu.bu.met.cs665.vehicle.Taxi;
+import edu.bu.met.cs665.vehicle.Van;
 
 public class Main {
   
