@@ -1,14 +1,13 @@
 /**
- * Name: FIRST_NAME LAST_NAME
+ * Name: Girish Madnani
  * Course: CS-665 Software Designs & Patterns
- * Date: MM/DD/YYYY
+ * Date: 02/23/2023
  * File Name: Main.java
  * Description: Write a description for this class
  */
 
 package edu.bu.met.cs665;
 
-import edu.bu.met.cs665.example1.Person;
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
 
@@ -47,9 +46,5 @@ public class Main {
      *
      * @return String
      */
-    private String doIt() {
-        Person student = new Person("John", "Doe");
-        return student.getLastName() + ',' + student.getLastName();
-    }
 
 }
