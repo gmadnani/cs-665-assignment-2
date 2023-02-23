@@ -45,12 +45,14 @@ public class Shop implements SubjectShop {
    * A method to create a delivery request and notify the observers.
    *
    * @param products    products
-   * @param destination destination
+   * @param destination products
+   * @return DeliveryRequest deliveryRequest
    */
-  public void createRequest(String products, String destination) {
+  public DeliveryRequest createRequest(String products, String destination) {
     DeliveryRequest deliveryRequest = new DeliveryRequest(products, destination);
     deliveryRequests.add(deliveryRequest);
     notifyObservers(deliveryRequest);
+    return deliveryRequest;
   }
 }
 
