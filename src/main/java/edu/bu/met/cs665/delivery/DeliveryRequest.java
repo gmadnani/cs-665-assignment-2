@@ -2,9 +2,10 @@
  * Name: Girish Madnani
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/23/2023
- * File Name: Main.java
- * Description: Write a description for this class
+ * File Name: DeliveryRequest.java
+ * Description: In the DeliveryRequest class the products and destination are initialised.
  */
+
 package edu.bu.met.cs665.delivery;
 
 public class DeliveryRequest {

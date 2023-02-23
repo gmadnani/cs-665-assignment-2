@@ -2,9 +2,11 @@
  * Name: Girish Madnani
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/23/2023
- * File Name: Main.java
- * Description: Write a description for this class
+ * File Name: Driver.java
+ * Description: The Driver class initialises the Driver name and vehicle type. It also has
+ * the update method for what is to be outputted.
  */
+
 package edu.bu.met.cs665.driver;
 
 import edu.bu.met.cs665.delivery.DeliveryRequest;

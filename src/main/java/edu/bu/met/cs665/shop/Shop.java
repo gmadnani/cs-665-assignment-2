@@ -2,9 +2,12 @@
  * Name: Girish Madnani
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/23/2023
- * File Name: Main.java
- * Description: Write a description for this class
+ * File Name: Shop.java
+ * Description: The Shop class contains the ArrayList observers and deliveryRequests
+ * which is to be used for adding, removing and notifying observers and also create
+ * the delivery requests.
  */
+
 package edu.bu.met.cs665.shop;
 
 import edu.bu.met.cs665.delivery.DeliveryRequest;

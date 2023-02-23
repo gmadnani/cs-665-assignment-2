@@ -2,9 +2,10 @@
  * Name: Girish Madnani
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/23/2023
- * File Name: Main.java
- * Description: Write a description for this class
+ * File Name: Taxi.java
+ * Description: The Taxi class gets the vehicle type taxi.
  */
+
 package edu.bu.met.cs665.vehicle;
 
 public class Taxi implements Vehicles {

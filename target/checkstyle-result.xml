@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.30">
-<file name="/Users/girish/Desktop/cs665 software/assignments/asg2/cs-665-assignment-2/src/main/java/edu/bu/met/cs665/Shop.java">
+<file name="/Users/girish/Desktop/cs665 software/assignments/asg2/cs-665-assignment-2/src/main/java/edu/bu/met/cs665/shop/Shop.java">
+<error line="16" severity="warning" message="Extra separation in import group before &apos;java.util.ArrayList&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/Users/girish/Desktop/cs665 software/assignments/asg2/cs-665-assignment-2/src/main/java/edu/bu/met/cs665/Main.java">
 </file>
 </checkstyle>

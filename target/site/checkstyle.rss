@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2023</copyright>
     <item>
-      <title>File: 1,
+      <title>File: 2,
              Errors: 0,
-             Warnings: 0,
+             Warnings: 1,
              Infos: 0
       </title>
             <link>http://maven.apache.org/checkstyle.html</link>
@@ -46,7 +46,21 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#edu.bu.met.cs665.Shop.java">edu/bu/met/cs665/Shop.java</a>
+                  <a href="http://maven.apache.org/checkstyle.html#edu.bu.met.cs665.shop.Shop.java">edu/bu/met/cs665/shop/Shop.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#edu.bu.met.cs665.Main.java">edu/bu/met/cs665/Main.java</a>
                 </td>
                 <td>
                   0

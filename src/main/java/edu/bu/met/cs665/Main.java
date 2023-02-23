@@ -3,7 +3,8 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/23/2023
  * File Name: Main.java
- * Description:
+ * Description: The Main class provides a main method to run the program and interact with the
+ * user to create a new Driver and registering the Driver. It also notifies the Drivers.
  */
 
 package edu.bu.met.cs665;
@@ -31,8 +32,12 @@ public class Main {
     shop.registerObserver(driver2);
     Driver driver3 = new Driver("3", new Scooter());
     shop.registerObserver(driver3);
+    Driver driver4 = new Driver("4", new Van());
+    shop.registerObserver(driver4);
+    Driver driver5 = new Driver("5", new Taxi());
+    shop.registerObserver(driver5);
     
-    shop.createRequest("Books", "ABC");
+    shop.createRequest("Books", "58 Bay State Rd, Boston");
     
   }
 }
