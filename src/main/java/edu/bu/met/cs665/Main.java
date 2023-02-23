@@ -37,7 +37,7 @@ public class Main {
     Driver driver5 = new Driver("5", new Taxi());
     shop.registerObserver(driver5);
     
-    shop.createRequest("Books", "58 Bay State Rd, Boston");
+    shop.createRequest("'Shirt, Pant and Shoes'", "58 Bay State Rd, Boston");
     
   }
 }
